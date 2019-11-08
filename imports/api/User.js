@@ -1,7 +1,7 @@
 import { Mongo } from 'meteor/mongo'
 import { Meteor } from 'meteor/meteor'
 
-export  const  User = new Mongo.Collection('user')
+export default  User = new Mongo.Collection('user')
 
 if(Meteor.isServer ){
     Meteor.publish('user' , () => {

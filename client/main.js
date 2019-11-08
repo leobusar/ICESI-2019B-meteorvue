@@ -16,6 +16,7 @@ import router  from  '../imports/ui/router'
 import App from  '../imports/ui/App'
 import './main.html'
 
+
 Meteor.startup(() => {
    new Vue ({
      el: "#app", 
